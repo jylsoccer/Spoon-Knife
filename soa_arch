@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-12T02:25:22.543Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="sNLzdHi-h5JJMCiFekKe" version="12.2.3" type="github" pages="1">
+<mxfile modified="2019-11-12T02:29:41.803Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="RVUje4G_UD6Cpvxi481i" version="12.2.3" type="github" pages="1">
   <diagram id="8DAuKD3JtvBOXbTEL2Vi" name="Page-1">
     <mxGraphModel dx="860" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,12 +23,12 @@
             <mxPoint x="183" y="290" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPB5GcWBCQIdvUnOcD-V-9" value="RPC调用" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="OPB5GcWBCQIdvUnOcD-V-8" vertex="1" connectable="0">
+        <mxCell id="OPB5GcWBCQIdvUnOcD-V-9" value="gRPC" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="OPB5GcWBCQIdvUnOcD-V-8" vertex="1" connectable="0">
           <mxGeometry x="0.1846" y="-1" relative="1" as="geometry">
             <mxPoint x="-34" y="-8" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPB5GcWBCQIdvUnOcD-V-2" value="注册中心zk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="OPB5GcWBCQIdvUnOcD-V-2" value="注册配置中心&lt;br&gt;zk集群" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="240" y="143" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="OPB5GcWBCQIdvUnOcD-V-4" style="rounded=0;html=1;entryX=0.75;entryY=1;jettySize=auto;orthogonalLoop=1;" parent="1" source="OPB5GcWBCQIdvUnOcD-V-3" target="OPB5GcWBCQIdvUnOcD-V-2" edge="1">
@@ -39,7 +39,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPB5GcWBCQIdvUnOcD-V-3" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="OPB5GcWBCQIdvUnOcD-V-3" value="APP2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="260" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="OPB5GcWBCQIdvUnOcD-V-18" value="拦截器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
@@ -66,7 +66,7 @@
         <mxCell id="kWxOfrafoo7XJzqZDNK2-3" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="62" y="270" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="OPB5GcWBCQIdvUnOcD-V-1" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="OPB5GcWBCQIdvUnOcD-V-1" value="APP1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="73" y="255" width="110" height="50" as="geometry"/>
         </mxCell>
       </root>
